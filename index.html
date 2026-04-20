@@ -100,4 +100,618 @@
               </svg>
             ),
             disco: [
-              { skill: "同舟共济", text: "成功：你看着圣彼得堡的这群鬣狗，纳斯塔霞、罗果仁……所有的贪婪与
+              { skill: "同舟共济", text: "成功：你看着圣彼得堡的这群鬣狗，纳斯塔霞、罗果仁……所有的贪婪与恶毒在你眼里只是流脓的创口。你试图用毫无保留的宽恕去缝合他们。" },
+              { skill: "电化学", text: "失败：强光！羊癫疯发作前的绝对抽搐！在那一秒的本体论恐怖中，你触碰到了实在界（The Real）的刺眼光芒。" },
+              { skill: "概念化", text: "失败：他们叫你白痴，他们没错。在尼采看来，你的绝对善良是最高级的奴隶道德；在精神分析的视域下，你是摧毁一切符号秩序的病毒。你试图拯救所有人，最终只带来了一场无差别的精神屠杀。" }
+            ],
+            psychoanalyticReport: "你的“善良”绝非某种天真的美德，而是一种最具破坏性的力量，一种实在界 [The Real] 的创伤性入侵。你像一个来自外太空的异形，完全拒绝参与人类社会的符号学交换（那些关于金钱、地位、欲望的复杂博弈）。你对他人的绝对同情和毫无保留的接纳，实际上构成了对现有社会秩序最激进的否定。你的存在本身就是一种对他人的审判，你的光芒太刺眼了，它照出了周围所有人内心深处的丑陋与虚伪，迫使他们发疯。你试图用纯粹的爱去拯救世界，但没有比这种试图取消一切界限的爱更暴力的东西了。你的结局注定是毁灭，因为这个建立在谎言之上的世界无法容忍一个活生生的真理。"
+          },
+          [CHARACTERS.IVAN]: {
+            name: "伊万·卡拉马佐夫 (Ivan Karamazov)",
+            book: "《卡拉马佐夫兄弟》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <rect x="20" y="20" width="60" height="60" />
+                <path d="M20 20 L80 80 M80 20 L20 80" />
+                <circle cx="50" cy="50" r="10" className="fill-black stroke-white" />
+              </svg>
+            ),
+            disco: [
+              { skill: "逻辑思维", text: "成功：“如果没有上帝，一切都是被允许的。”你宣告了神之死。你的理性是一台精密的解剖机，将信仰的虚伪切得粉碎。你把那张沾满受苦儿童眼泪的入场券，傲慢地甩回了造物主的脸上。" },
+              { skill: "平心定气", text: "失败：可是那个魔鬼又坐在你的沙发上了。他穿着寒酸的格子裤，操着一口下流的法语，嘲笑着你的无神论。" },
+              { skill: "内陆帝国", text: "失败：你以为你在解构上帝，但你只是被那不可承受的自由压垮了。精神分析的预言在你身上应验：上帝死后，不是一切皆可，而是“一切皆被禁止”。你的超我变成了一个残暴的暴君，将你的智力逼向了彻底的分裂。" }
+            ],
+            psychoanalyticReport: "你是一个典型的现代性悲剧英雄，一个被自己的理智逼入绝境的无神论者。“如果没有上帝，一切都是被允许的”——这句口号绝非你解放的宣言，而是你最深的噩梦。当大他者死亡，你并没有获得自由，反而陷入了更深的恐慌：如果一切都被允许，那么什么才是真正有意义的？你傲慢地退回了天国的入场券，因为你无法接受一个建立在无辜者泪水之上的和谐世界。但这种拒绝本身包含着一种更高的道德自恋。你的理智是一台精密的绞肉机，它切碎了一切信仰和价值，最后只能切碎你自己。你那分裂出的魔鬼幻象，正是你被压抑的欲望和信仰的扭曲回归。你比任何信徒都更痴迷于上帝，因为只有通过不断地否定他，你才能维持你那摇摇欲坠的主体性。"
+          },
+          [CHARACTERS.ALYOSHA]: {
+            name: "阿列克谢·卡拉马佐夫 (Alyosha Karamazov)",
+            book: "《卡拉马佐夫兄弟》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <path d="M50 10 L90 90 L10 90 Z" />
+                <circle cx="50" cy="65" r="15" className="fill-zinc-600" />
+                <path d="M30 80 Q50 40 70 80" className="stroke-red-900" strokeWidth="2" />
+                <line x1="50" y1="20" x2="50" y2="40" />
+              </svg>
+            ),
+            disco: [
+              { skill: "坚韧不拔", text: "成功：深呼吸。卡拉马佐夫家的污血同样在你的血管里奔流。你嗅到了佐西马长老尸体腐烂的恶臭，你比任何人都清楚信仰在生理学上的溃败。" },
+              { skill: "同舟共济", text: "成功：但你没有滑向你哥哥那冰冷的虚无。你拒绝了逃避。你选择去亲吻那些满嘴谎言和酒气的嘴唇。" },
+              { skill: "见微知著", text: "成功：这不是什么瞎了眼的神性，而是一种极端狡猾的、属于幸存者的傲慢。在凝视过最肮脏的深渊之后，你把爱当成了一种激进的政治与伦理武器，用来死死地抵御那即将吞噬一切的荒谬。" }
+            ],
+            psychoanalyticReport: "别被你那天使般的外表欺骗了，你的血管里同样流淌着卡拉马佐夫家那肮脏、狂热的血液。你的信仰并非来自对世界的无知，而是来自对深渊的最深刻的凝视。你比谁都清楚人性的卑劣、信仰的虚伪和世界的荒谬。但你没有像伊万那样滑向虚无，也没有沉溺于感官。你做出了一种近乎疯狂的伦理决断：在明知一切都无可救药的情况下，依然选择去爱，去亲吻大地，去拥抱那些具体的、散发着恶臭的罪人。这是一种不再需要大他者担保的信仰，一种在废墟之上建立起来的激进的行动主义。你的爱不是一种温情脉脉的安慰剂，而是一种坚硬的、毫不妥协的政治立场。"
+          },
+          [CHARACTERS.DMITRI]: {
+            name: "德米特里·卡拉马佐夫 (Dmitri Karamazov)",
+            book: "《卡拉马佐夫兄弟》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <path d="M50 90 Q10 50 50 10 Q90 50 50 90 Z" className="fill-red-900 stroke-red-600" strokeWidth="3"/>
+                <path d="M20 50 Q50 80 80 50" className="stroke-white" />
+                <circle cx="50" cy="40" r="5" className="fill-white" />
+              </svg>
+            ),
+            disco: [
+              { skill: "电化学", text: "成功：干杯！白兰地！香水！吉普赛人的狂舞！把最后三千卢布砸在桌子上，把尊严和资产阶级的体面一起烧成灰烬！" },
+              { skill: "剧烈震颤", text: "失败：你血管里流淌着的是纯粹的力比多（Libido）。你是一团被欲望点燃的、昆虫般的野火。你手里紧紧握着那个黄铜杵，恨不得敲碎一切伪善的脑壳。" },
+              { skill: "五官感知", text: "成功：泥巴。你在发烧。你愿意去西伯利亚服苦役，为那个你根本没杀的老畜生顶罪。为什么？因为在法学意义上你是无辜的，但在本体论上，你那溢出边界的享乐本身即是原罪。你热爱这种被毁灭的痛楚。" }
+            ],
+            psychoanalyticReport: "你就是纯粹的、溢出的享乐 [Jouissance] 的化身！你是一只被欲望点燃的昆虫，在泥浆和烈酒中疯狂地扑腾。你对崇高和卑劣有着同样的、不加区分的狂热追求。你并不真的想要那三千卢布或者具体的某个人，你真正想要的是那种在自我毁灭边缘试探的强度，那种为了瞬间的狂欢而烧毁一切未来的快感。在法学意义上，你也许没有杀父，但在深层的潜意识中，你那未受理智规训的、暴烈的欲望本身就是原罪。你愿意接受苦役，不是因为你悔过了，而是因为你需要一种更极端的痛苦来填补你那无底的欲望黑洞。你的受难本身就是一场更高级的享乐狂欢。"
+          },
+          [CHARACTERS.STAVROGIN]: {
+            name: "尼古拉·斯塔夫罗金 (Nikolai Stavrogin)",
+            book: "《群魔》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <circle cx="50" cy="50" r="40" className="stroke-zinc-800" strokeWidth="8"/>
+                <circle cx="50" cy="50" r="2" className="fill-white" />
+              </svg>
+            ),
+            disco: [
+              { skill: "平心定气", text: "失败：什么都没有。没有愤怒，没有悲伤，甚至连虚无主义的激情都干涸了。你的内心是一个巨大的、能吞噬光线的黑洞。" },
+              { skill: "标新立异", text: "失败：你咬破了长者的耳朵，你公开迎娶了一个瘸腿的发疯女人。不仅因为无聊，更因为你试图通过最极端的卑劣来寻找哪怕一丝道德摩擦力。但你失败了。" },
+              { skill: "内陆帝国", text: "成功：你彻底穿越了意识形态的幻象，只剩下纯粹的死亡驱力。那根涂了厚厚一层肥皂的丝绳已经在阁楼里等你了。深渊也会凝视你，但在你的情况里，你就是那个把深渊给瞪到无聊退场的怪物。" }
+            ],
+            psychoanalyticReport: "你是一个已经彻底穿越了幻想 [Traversing the Fantasy] 的主体，一个活生生的虚无主义深渊。对你来说，善与恶、崇高与卑劣、激情与冷漠，这一切对立都已失去了意义。你的内心是一个巨大的黑洞，吞噬一切试图靠近的光线。你进行各种极其荒诞、令人发指的行为，并非出于欲望或邪恶，而仅仅是因为无聊——一种本体论层面上的、令人窒息的空洞。你试图通过触碰道德的绝对底线来寻找哪怕一丝存在的摩擦力，但你失败了。你已经是一个死人，一个游荡在世间的幽灵。你的最终结局不是一种解脱，而是对这个不再能引起你任何兴趣的世界的最后一次、最彻底的冷漠嘲讽。"
+          },
+          [CHARACTERS.PYOTR]: {
+            name: "彼得·韦尔霍文斯基 (Pyotr Verkhovensky)",
+            book: "《群魔》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <polygon points="50,10 90,50 50,90 10,50" className="stroke-red-600" />
+                <circle cx="50" cy="50" r="25" strokeDasharray="5,5" className="stroke-zinc-500" />
+              </svg>
+            ),
+            disco: [
+              { skill: "循循善诱", text: "成功：恐惧和共谋。你需要用这些把那些蠢货绑在一起。杀一个自己人，让所有人的手上都沾满热腾腾的血。没有什么比共同的肮脏秘密更能打造组织的向心力了。" },
+              { skill: "概念化", text: "成功：别提什么伟大的乌托邦和人类的未来。那些只是用来骗热血大学生的塑料假花。你深谙现代社会的微观政治逻辑：一切坚固的东西都必须被解构、被砸碎。" },
+              { skill: "食髓知味", text: "成功：你是一台没有感情的绞肉机，一个披着激进外衣的犬儒主义小丑。你享受的仅仅是操纵权力杠杆、听着旧秩序在轮轴间发出断裂声时的那种生理快感。" }
+            ],
+            psychoanalyticReport: "你是一个完美的后现代政治操盘手，一个披着激进革命外衣的犬儒主义小丑。你根本不相信什么伟大的理念或乌托邦，那些只是你用来动员和操控群氓的工具。你深谙权力的肮脏秘密：比崇高的理想更能将人们捆绑在一起的，是共同的罪恶和沾血的双手。你是一台没有感情的社会绞肉机，你享受的不是建设新世界，而是听着旧世界的骨骼在你的操纵下断裂、粉碎的声音。你的存在揭示了激进政治中最阴暗的一面：当行动失去了伦理内核，它就会堕落为一种纯粹的、为了毁灭而毁灭的微观权力游戏。"
+          },
+          [CHARACTERS.SONYA]: {
+            name: "索尼娅·马尔梅拉多娃 (Sonya Marmeladova)",
+            book: "《罪与罚》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <path d="M30 80 Q50 20 70 80" className="stroke-blue-400" strokeWidth="3"/>
+                <circle cx="50" cy="30" r="10" />
+                <line x1="20" y1="90" x2="80" y2="90" />
+              </svg>
+            ),
+            disco: [
+              { skill: "坚韧不拔", text: "成功：泥水溅在你的裙摆上，手里攥着出卖肉体换来的三十个卢布。这就是你的十字架，你像个圣徒一样背着它，走在干瘪且散发着恶臭的彼得堡街道上。" },
+              { skill: "逻辑思维", text: "成功：你在用自我抹除的方式进行一种最残酷的道德勒索。你把自己的肉体切碎了喂给那个饥饿的家庭和那个发高烧的杀人犯，只为了确立一种绝对的道德制高点。" },
+              { skill: "内陆帝国", text: "失败：你觉得这是神圣的牺牲。但冷酷的精神分析会指出：你的苦难构成了一种病态的受虐狂欢。你对世界的苦难照单全收，实际上是在隐秘地行使属于受害者的最高权力，你在和那套吃人的父权秩序进行着一场恶心的共谋。" }
+            ],
+            psychoanalyticReport: "你的形象是牺牲逻辑的最完美、也是最病态的体现。你出卖肉体来养活家庭，你用无限的宽恕来接纳罪人，这看起来是圣徒般的行为。但精神分析的视角会毫不留情地剥开这一层：这恰恰构成了一种极端的受虐狂欢。你通过彻底的自我贬低和对苦难的无条件接受，实际上是在隐秘地占据一个道德上的绝对制高点。你的牺牲是你控制大他者的手段，是你确认自身价值的唯一方式。你的苦难成为了你的特权，你用它来勒索这个世界，让所有人在你面前都感到负罪。你对现有压迫秩序的顺从，实际上是一种最深刻的、共谋性的精神控制。"
+          },
+          [CHARACTERS.LISE]: {
+            name: "丽萨·霍赫拉科娃 (Lise Khokhlakova)",
+            book: "《卡拉马佐夫兄弟》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <circle cx="50" cy="50" r="30" className="stroke-red-400 border-dashed" strokeDasharray="4 4" />
+                <path d="M40 60 Q50 40 60 60" className="stroke-red-600" />
+              </svg>
+            ),
+            disco: [
+              { skill: "标新立异", text: "成功：你故意压断自己的手指，看着门缝夹住指甲带来的钻心疼痛，你在发抖，这是一种病态的狂喜。" },
+              { skill: "逻辑思维", text: "失败：你梦想着吃菠萝蜜饯，同时看着旁边被钉在墙上的小孩。秩序对你来说只是用来碾碎和嘲弄的玩具。" },
+              { skill: "内陆帝国", text: "成功：歇斯底里的终极形态。你痛恨被同情，你极度渴望恶，因为只有纯粹的恶意和破坏才能打破你被困在轮椅上的本体论虚弱。" }
+            ],
+            psychoanalyticReport: "你的残忍绝非孩童的恶作剧，而是对僵化符号秩序 [The Symbolic Order] 最精准的解构。你压断手指的痛觉，是用来刺穿周围成年世界那层虚伪体面外壳的探针。你的轮椅不仅是生理的禁锢，更是你主动认同的“症候” [Symptom]——你通过拒绝正常行走，拒绝了被收编进平庸的符号化进程。你对受苦儿童与菠萝蜜饯的并置幻想，残酷地揭示了现代性道德的内核：一切崇高的同情，都暗含着一种隐秘的凝视快感 [Jouissance of the Gaze]。你极度渴望纯粹的恶意与破坏，因为真实的痛觉比虚假的安抚更能证明你的存在，你的“恶”比外界的“善”更接近实在界 [The Real] 的刺痛真相。"
+          },
+          [CHARACTERS.KATERINA]: {
+            name: "卡捷琳娜·伊万诺芙娜 (Katerina Ivanovna Verkhovtseva)",
+            book: "《卡拉马佐夫兄弟》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <path d="M50 20 L80 80 L20 80 Z" className="stroke-zinc-400" />
+                <circle cx="50" cy="50" r="10" className="fill-zinc-300" />
+              </svg>
+            ),
+            disco: [
+              { skill: "坚韧不拔", text: "成功：你选择用最痛苦的姿态站立。你拒绝被解救，因为你的受难就是你的王冠。" },
+              { skill: "权威", text: "成功：你绝不宽恕。你的奉献是一种高高在上的施舍，你试图通过制造永恒的亏欠感，对大他者 [The Big Other] 实施最严厉的道德统治。" },
+              { skill: "内陆帝国", text: "失败：骄傲的暴君。你声称自己为了责任付出一切，但在潜意识里，你爱的是自己那受难的崇高形象，而不是任何具体的客体。" }
+            ],
+            psychoanalyticReport: "你把“崇高”变成了一台最高效的权力绞肉机。精神分析要无情地拆解你那自我感动的受难叙事：你的宽恕与死守根本不是爱，而是一种索取无限符号债务 [Symbolic Debt] 的金融杠杆。你通过将自己钉死在“绝对受害者”的位置上，合法化了对大他者 [The Big Other] 进行终身道德施虐的权力。你拒绝从痛苦的契约中抽身，是因为你深知一旦完成了宽恕的闭环，你那由苦难支撑的、极度膨胀的超我 [Superego] 就会瞬间坍塌。你用献祭自身的戏码，精准地将世俗的伦理律令异化成了你用来统治他人的暴君王座。"
+          },
+          [CHARACTERS.DUNYA]: {
+            name: "阿芙朵嘉·罗曼诺芙娜 (Avdotya Romanovna)",
+            book: "《罪与罚》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <line x1="20" y1="50" x2="80" y2="50" className="stroke-white" strokeWidth="4" />
+                <circle cx="50" cy="50" r="20" className="stroke-zinc-500" />
+              </svg>
+            ),
+            disco: [
+              { skill: "平心定气", text: "成功：你直视绝境，手里握着左轮手枪。理智，决绝，没有一丝歇斯底里。" },
+              { skill: "逻辑思维", text: "成功：你将世俗的亲密关系降维为一笔精确计算过的交易，用自身的主体性去换取权力结构的倾斜。这是理性的最高级献祭。" },
+              { skill: "内陆帝国", text: "失败：你在用一种近乎冷酷的理智来执行自我毁灭。你以为你能掌控一切交易，却忽略了精神在这个物化过程中被撕裂的必然。" }
+            ],
+            psychoanalyticReport: "你是理性主体 [Rational Subject] 与受虐情结结合的极佳标本。你试图用一种极其冷酷的工具理性 [Instrumental Rationality] 来解构自身的客体化 [Objectification]：你声称将自身作为筹码投入契约是为了拯救家族，但这看似神圣的牺牲，实际上掩盖了你试图在结构绝境中夺取绝对支配权的隐秘欲望。当你直视深渊，拔出左轮手枪指向那个压迫者时，你并没有打破僵局，只是揭示了一个更冰冷的真相：在庞大的符号交换 [Symbolic Exchange] 逻辑下，你只能通过扣动扳机——这种纯粹属于死亡驱力 [Death Drive] 和实在界 [The Real] 的暴力介入——来证明自己尚未完全沦为一件可供交易的商品。"
+          },
+          [CHARACTERS.NASTASYA]: {
+            name: "娜斯塔霞·菲立波夫娜 (Nastasya Filippovna)",
+            book: "《白痴》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <path d="M20 50 Q50 10 80 50 Q50 90 20 50 Z" className="stroke-red-600" />
+                <path d="M30 50 L70 50" className="stroke-red-800" strokeWidth="4"/>
+              </svg>
+            ),
+            disco: [
+              { skill: "戏剧表演", text: "成功：十万卢布被扔进火炉。你用最高调的自我毁灭，完成了对所有凝视者权力的终极嘲弄。" },
+              { skill: "同舟共济", text: "失败：面对看似神圣的救赎，你选择逃跑。你不能被治愈，被治愈意味着剥夺你确立自我的唯一坐标——一个主动拥抱坠落的异类。" },
+              { skill: "内陆帝国", text: "成功：你将耻辱当作武器。你的潜意识主动迎合那把将要刺死你的刀，因为只有在死亡的绝对静止中，你的骄傲才能免受俗世秩序的收编。" }
+            ],
+            psychoanalyticReport: "你是对“被拯救”这一虚伪意识形态的最无情嘲弄。你没有停留在早年的创伤中，而是将耻辱本身提纯为一种极具毁灭性的享乐 [Jouissance]。你将十万卢布扔进火炉，不仅仅是歇斯底里发作，更是通过撕毁一般等价物，瞬间摧毁了所有试图物化你的凝视者们的权力基础。你拒绝那个看似神圣的救赎者，因为你敏锐地洞察到：接受净化，就等于向那个最初将你判定为“异类”的秩序投降。你选择主动迎合那把刺向你的刀尖，是在进行最后一场绝望的本体论 [Ontology] 确立——你用肉体的绝对毁灭与死亡驱力 [Death Drive] 的终极实现，剥夺了世界最终凝视、定义和消费你的权力。"
+          },
+          [CHARACTERS.NASTENKA]: {
+            name: "娜斯金卡 (Nastenka)",
+            book: "《白夜》",
+            icon: (
+              <svg viewBox="0 0 100 100" className="w-24 h-24 stroke-white fill-none stroke-2">
+                <circle cx="50" cy="50" r="40" className="stroke-blue-200/50" />
+                <path d="M50 10 Q70 50 50 90 Q30 50 50 10 Z" className="fill-blue-100/20" />
+              </svg>
+            ),
+            disco: [
+              { skill: "概念化", text: "成功：圣彼得堡的白夜是你编织幻想的温床。你用等待来代替生存，用浪漫的语言来掩盖现实的无力。" },
+              { skill: "循循善诱", text: "成功：你无意识地将他人降格为你维持幻象的客体 [Object]。你的纯真中夹杂着维持自我闭环的残忍。" },
+              { skill: "内陆帝国", text: "失败：你恐惧实在界 [The Real]。任何真实的交互都会刺破你的梦幻泡沫，所以你只能依赖一个永远缺席的幻影作为锚定你存在的遥远能指 [Distant Signifier]。" }
+            ],
+            psychoanalyticReport: "你的“纯真”是整个测试中最具欺骗性的意识形态幻象 [Ideological Fantasy]。你对那个缺席者的漫长等待，根本不是什么浪漫的忠贞，而是你用来抵御真实世界粗糙入侵的坚固盾牌。你用一个空洞的能指 [Empty Signifier] 作为锚点，死死地堵住了自己与真实他者 [The Real Other] 建立连接的缺口。你将那个无辜的过客吸纳进你的彼得堡白夜，仅仅是需要一个活生生的客体 [Object]，来为你那摇摇欲坠的幻想空间 [Fantasy Space] 提供倒影。你流下的感伤眼泪没有任何实体的重量，它们只是你用来逃避实在界 [The Real] 那种暴烈且充满未知风险的碰撞的防御性屏障。"
+          }
+        };
+
+        const questions = [
+          { text: "即使知道会走向毁灭，我也无法抗拒对感官享乐（如酒精、肉欲或狂乱）的极致追求。", traits: { [CHARACTERS.DMITRI]: 1.5, [CHARACTERS.STAVROGIN]: -1, [CHARACTERS.ALYOSHA]: -1 } },
+          { text: "我经常在深夜陷入一种发热般的幻觉，大脑不受控制地推演各种极端的、僭越边界的思想实验。", traits: { [CHARACTERS.RASKOLNIKOV]: 1.5, [CHARACTERS.IVAN]: 1 } },
+          { text: "同情心不过是弱者的货币。但在看透他人灵魂中那股不可救药的劣根性后，我选择接纳他们——这是一种属于幸存者的傲慢，也是对虚无的最终嘲弄。", traits: { [CHARACTERS.ALYOSHA]: 1.5, [CHARACTERS.IVAN]: 1, [CHARACTERS.MYSHKIN]: -1 } },
+          { text: "如果建立完美乌托邦的代价是哪怕一个无辜儿童的眼泪，那么我必须恭敬地将这张通往和谐世界的门票退还给上帝。", traits: { [CHARACTERS.IVAN]: 2, [CHARACTERS.ALYOSHA]: 1, [CHARACTERS.PYOTR]: -1 } },
+          { text: "无论面对极度的崇高还是极度的堕落，我内心都毫无波澜，仿佛早就耗尽了所有感知痛苦与喜悦的器官。", traits: { [CHARACTERS.STAVROGIN]: 2, [CHARACTERS.DMITRI]: -2 } },
+          { text: "用共同的罪恶、鲜血和肮脏的秘密来绑定一个群体，远比用那些虚无缥缈的崇高理想更具操作性。", traits: { [CHARACTERS.PYOTR]: 2, [CHARACTERS.ALYOSHA]: -1.5 } },
+          { text: "所谓的高尚往往是掩饰无能的遮羞布。通过彻底的自我贬低和承受痛苦，我实际上是在这虚伪的道德体系中，隐秘地攫取了居高临下的权力。", traits: { [CHARACTERS.SONYA]: 2, [CHARACTERS.PYOTR]: 1, [CHARACTERS.RASKOLNIKOV]: 1 } },
+          { text: "世界上极少数的“非凡之人”，为了推动历史的车轮，拥有绝对的权利去跨越世俗道德，甚至去踩碎那些平庸的头骨。", traits: { [CHARACTERS.RASKOLNIKOV]: 2, [CHARACTERS.PYOTR]: 1, [CHARACTERS.SONYA]: -1.5 } },
+          { text: "所谓的道德底线，在真正的激情和本能的肉体欲望面前，不过是懦夫用来安慰自己的虚伪把戏。", traits: { [CHARACTERS.DMITRI]: 1.5, [CHARACTERS.PYOTR]: 1, [CHARACTERS.ALYOSHA]: -1 } },
+          { text: "我时常感到一种难以名状的癫狂冲动，想要当众撕裂自己的尊严，或向陌生人袒露最肮脏、最卑劣的秘密以求获得刺激。", traits: { [CHARACTERS.RASKOLNIKOV]: 1.5, [CHARACTERS.SONYA]: 1, [CHARACTERS.STAVROGIN]: -1 } },
+          { text: "把神圣的偶像砸碎，把高尚的道德扔进泥水里踩踏——不是为了革命，仅仅是因为看着那些蠢货在信仰崩塌时哭泣的脸，能带来纯粹的生理快感。", traits: { [CHARACTERS.PYOTR]: 2, [CHARACTERS.STAVROGIN]: 1, [CHARACTERS.MYSHKIN]: -2 } },
+          { text: "我不相信任何神圣的恩典。如果我还愿意向那些散发着恶臭的灵魂伸出手，仅仅是因为这种激进的姿态，是我唯一能用来对抗现实荒谬的武器。", traits: { [CHARACTERS.ALYOSHA]: 2, [CHARACTERS.IVAN]: 1.5, [CHARACTERS.MYSHKIN]: -1.5 } },
+          { text: "对我来说，去爱抽象意义上的“全人类”很容易，但去爱一个具体的、打着饱嗝、散发着汗臭味的人却令人极度作呕。", traits: { [CHARACTERS.IVAN]: 1.5, [CHARACTERS.PYOTR]: 1, [CHARACTERS.ALYOSHA]: -1.5 } },
+          { text: "我的直率和坦诚常常让周围的人感到极度尴尬，甚至在无意中引发灾难，但我依然像个白痴一样拒绝学会伪装。", traits: { [CHARACTERS.MYSHKIN]: 2, [CHARACTERS.PYOTR]: -1 } },
+          { text: "我宁愿在无序的狂欢中将肝脏烧毁，也不愿在精打细算的资产阶级体面中平庸、安全地老去。", traits: { [CHARACTERS.DMITRI]: 2, [CHARACTERS.RASKOLNIKOV]: -1, [CHARACTERS.IVAN]: -1 } },
+          { text: "我常常认为，我的存在就是为了替我所爱的人赎罪，通过吸纳他们的污秽来确立我自身的存在价值。", traits: { [CHARACTERS.SONYA]: 2, [CHARACTERS.ALYOSHA]: 1, [CHARACTERS.STAVROGIN]: -1.5 } },
+          { text: "我所有的极端行为（无论是行善还是作恶），都只是为了测试自己是否还能在死水一潭的生活中感受到一丝活着的刺痛感。", traits: { [CHARACTERS.STAVROGIN]: 1.5, [CHARACTERS.DMITRI]: 1, [CHARACTERS.SONYA]: -1 } },
+          { text: "只要剥离了终极真理或上帝的监视，人类的一切行为，无论手段多么残忍下作，在逻辑的终点都是被完全允许的。", traits: { [CHARACTERS.IVAN]: 1.5, [CHARACTERS.PYOTR]: 1.5, [CHARACTERS.MYSHKIN]: -1.5 } },
+          { text: "有时候，让肉体承受极端的屈辱和痛苦，反而能极其诡异地减轻我精神上那种无孔不入的负罪感。", traits: { [CHARACTERS.SONYA]: 1.5, [CHARACTERS.RASKOLNIKOV]: 1.5, [CHARACTERS.DMITRI]: 1 } },
+          { text: "面对他人的罪恶，我不会感到居高临下的愤怒，只会感到一种共犯般的悲哀——因为我们都陷入了同样的结构性绝望之中。", traits: { [CHARACTERS.ALYOSHA]: 1.5, [CHARACTERS.MYSHKIN]: 1.5, [CHARACTERS.PYOTR]: -2 } },
+          { text: "在极度危险或可能被捕的焦虑边缘，我反而会感受到一种病态的、令人毛骨悚然的快感。", traits: { [CHARACTERS.RASKOLNIKOV]: 1.5, [CHARACTERS.IVAN]: 1, [CHARACTERS.ALYOSHA]: -1 } },
+          { text: "当面对伪善的权威时，我更愿意用冰冷的沉默、神经质的冷笑或荒唐离奇的行为来回应，而不是与他们进行任何逻辑辩论。", traits: { [CHARACTERS.STAVROGIN]: 1.5, [CHARACTERS.DMITRI]: 1, [CHARACTERS.MYSHKIN]: -1 } },
+          { text: "我深知人类充满了劣根性，但这不是什么堕落，这仅仅是生物学和社会学交织下的可悲产物。", traits: { [CHARACTERS.IVAN]: 1.5, [CHARACTERS.RASKOLNIKOV]: 1 } },
+          { text: "所谓的“理智和秩序”，不过是我们在无意识的、昆虫般的狂野欲望面前，用来欺骗自己的那一层薄薄的遮羞布。", traits: { [CHARACTERS.DMITRI]: 1.5, [CHARACTERS.PYOTR]: 1, [CHARACTERS.IVAN]: -1.5 } },
+          { text: "我对社交场合中的利益交换和隐晦暗示感到极度迟钝，甚至从根本上觉得那些东西令人作呕。", traits: { [CHARACTERS.MYSHKIN]: 2, [CHARACTERS.PYOTR]: -2, [CHARACTERS.STAVROGIN]: 0.5 } },
+          { text: "我内心的极度骄傲常常将我与周围的平庸之辈隔绝开来，让我感到一种既窒息又沾沾自喜的、居高临下的孤独。", traits: { [CHARACTERS.RASKOLNIKOV]: 2, [CHARACTERS.IVAN]: 1.5, [CHARACTERS.ALYOSHA]: -1.5 } },
+          { text: "世界对我而言是一个巨大的、令人厌倦的垃圾场，所有的政治蓝图和宗教救赎在这个废墟里都显得像个笑话。", traits: { [CHARACTERS.STAVROGIN]: 2, [CHARACTERS.IVAN]: 1, [CHARACTERS.DMITRI]: -1.5 } },
+          { text: "我极度渴望一场彻底的毁灭，哪怕它会将我自己也烧成灰烬，只要能终结这种令人发疯的平庸与无聊。", traits: { [CHARACTERS.STAVROGIN]: 1.5, [CHARACTERS.DMITRI]: 1.5, [CHARACTERS.MYSHKIN]: -1 } },
+          { text: "我有时会故意用残暴或下流的话语激怒别人，仅仅是为了撕下他们的面具，欣赏他们伪善破裂时的丑陋模样。", traits: { [CHARACTERS.PYOTR]: 1.5, [CHARACTERS.STAVROGIN]: 1, [CHARACTERS.ALYOSHA]: -1 } },
+          { text: "我不愿轻易释怀那些加诸于我的剥削。只有保持着这种居高临下的敌意，我才能在结构上永远统治那些试图同情我的人。", traits: { [CHARACTERS.KATERINA]: 2, [CHARACTERS.SONYA]: -1.5, [CHARACTERS.MYSHKIN]: -2 } },
+          { text: "我有时会故意做出极端任性或残忍的事情，只是为了看看秩序崩溃时周围人错愕的表情，这让我感到自己活着。", traits: { [CHARACTERS.LISE]: 2, [CHARACTERS.STAVROGIN]: 1, [CHARACTERS.ALYOSHA]: -1 } },
+          { text: "我宁可被毁灭，也要把自己的耻辱公之于众，以此来彻底消解那些试图用廉价同情或物质来定义我的凝视。", traits: { [CHARACTERS.NASTASYA]: 2, [CHARACTERS.DUNYA]: -1, [CHARACTERS.PYOTR]: 1 } },
+          { text: "即使是世俗强加的亲密契约或伦理义务，对我来说也不过是一场可以用理智精确计算的交易，我试图用自我的客体化（Objectification）来换取对命运的绝对掌控权。", traits: { [CHARACTERS.DUNYA]: 2, [CHARACTERS.NASTENKA]: -1.5, [CHARACTERS.DMITRI]: -1 } },
+          { text: "我更愿意活在充满幻想和诗意的白日梦里，因为现实中真实的触碰总是太粗糙，会轻易刺破我构筑的安全气泡。", traits: { [CHARACTERS.NASTENKA]: 2, [CHARACTERS.RASKOLNIKOV]: -1, [CHARACTERS.PYOTR]: -1.5 } },
+          { text: "最终，在这个腐朽的世界上，没有绝对的真理能拯救我们。唯一的解药是一次微小的、不计后果的、荒谬的善意之举。", traits: { [CHARACTERS.ALYOSHA]: 2, [CHARACTERS.SONYA]: 1.5, [CHARACTERS.PYOTR]: -2 } }
+        ];
+
+        const LIKERT_OPTIONS = [
+          { label: '极其反对', value: -2 },
+          { label: '偏向反对', value: -1 },
+          { label: '中立/不确定', value: 0 },
+          { label: '偏向同意', value: 1 },
+          { label: '极其同意', value: 2 }
+        ];
+
+        const FEEDBACK_STRINGS = {
+          [CHARACTERS.DMITRI]: {
+            agree: ["我知道你也会喜欢这样怯懦的，下贱的，卡拉马佐夫式的麻痹，是不是？", "泥沼，烂泥，还有劣质伏特加。纯粹的享乐（Jouissance）狂欢。"],
+            disagree: ["哦，资产阶级的体面。你害怕弄脏你那件虚伪的浆洗衬衫。"]
+          },
+          [CHARACTERS.RASKOLNIKOV]: {
+            agree: ["一把理性的斧头。你觉得自己是尼采式的超人，准备好跨越那条线了吗？", "血的腥味在你的逻辑链条末端发酵。"],
+            disagree: ["群氓的直觉。你害怕承担那沾满脑浆的自由，只配在羊群里咩咩叫。"]
+          },
+          [CHARACTERS.IVAN]: {
+            agree: ["冰冷的欧几里得几何学。你以为退回入场券就能保持双手干净吗？", "用智力解剖一切，直到只剩下无底的虚无。"],
+            disagree: ["你大脑里的防线太脆弱了，甚至不敢去凝视上帝死亡后的废墟。"]
+          },
+          [CHARACTERS.ALYOSHA]: {
+            agree: ["带着傲慢的悲悯。你接纳他们，是因为你比他们更清楚地看到了地狱。", "在废墟上亲吻泥土。一种病态却迷人的坚持。"],
+            disagree: ["冷漠才是最安全的防空洞。把那些流脓的伤口挡在视线之外吧。"]
+          },
+          [CHARACTERS.STAVROGIN]: {
+            agree: ["纯粹的黑洞。咬破别人的耳朵也无法拯救你的本体论无聊。", "死亡驱力。你在真空中挥拳，什么都感觉不到。"],
+            disagree: ["你还有温情脉脉的幻觉，还没有被虚无彻底吞没。"]
+          },
+          [CHARACTERS.PYOTR]: {
+            agree: ["砸碎偶像的快感。你就是那个躲在幕后递刀子的冷笑小丑。", "把所有人拉进同一个肮脏的秘密里。干得漂亮。"],
+            disagree: ["你居然还相信那些关于崇高和秩序的童话？真可悲。"]
+          },
+          [CHARACTERS.SONYA]: {
+            agree: ["享受受害者的特权吧，用痛苦作为你最高效的道德货币。", "把自我贬低成尘埃，这正是你控制大他者的手段。"],
+            disagree: ["你拒绝受虐，这意味着你还不懂得如何用苦难去勒索这个世界。"]
+          },
+          [CHARACTERS.MYSHKIN]: {
+            agree: ["不可救药的白痴状态。你的光芒会让周围的人发疯的。", "拒绝参与符号交易。一场激进的、毁灭性的道德罢工。"],
+            disagree: ["当然，聪明的市侩动物总是懂得如何保护自己免受真理的灼伤。"]
+          },
+          [CHARACTERS.LISE]: {
+            agree: ["压断手指的痛觉。你想看到那些虚伪的大人错愕发疯的表情。", "歇斯底里的纯粹破坏欲，真迷人。"],
+            disagree: ["你太乖巧了，没有破坏一切的胆量。"]
+          },
+          [CHARACTERS.KATERINA]: {
+            agree: ["永不宽恕，这就是你的王权。", "用一生的受难将他者 [The Other] 永远钉在符号学债务 [Symbolic Debt] 的十字架上。"],
+            disagree: ["软弱的宽容，你放弃了在道德上统治别人的机会。"]
+          },
+          [CHARACTERS.DUNYA]: {
+            agree: ["理性的献祭 [Sacrifice of Reason]。将自身物化 [Objectification] 以夺取绝对的掌控权。", "在绝境中拔出左轮手枪的冷酷感，不愧是你。"],
+            disagree: ["你还没学会把自我物化成掌控命运的工具。"]
+          },
+          [CHARACTERS.NASTASYA]: {
+            agree: ["燃烧的十万卢布。把耻辱当成炫耀的资本。", "拒绝被拯救，因为你爱极了自己坠落的王座。"],
+            disagree: ["你承受不住那种极端的自我毁灭带来的快感。"]
+          },
+          [CHARACTERS.NASTENKA]: {
+            agree: ["用浪漫的幻觉抵御粗糙的真实。", "寄生于幻象空间 [Fantasy Space] 的幽灵，你恐惧实在界 [The Real] 的粗糙入侵。"],
+            disagree: ["你缺乏做白日梦的神经质天赋。"]
+          }
+        };
+
+        const getDominantTrait = (traits) => {
+          let domChar = null;
+          let maxWeight = -Infinity;
+          for (const [char, weight] of Object.entries(traits)) {
+            if (Math.abs(weight) > maxWeight) {
+              maxWeight = Math.abs(weight);
+              domChar = char;
+            }
+          }
+          return domChar;
+        };
+
+        const calculateConsistency = (answers) => {
+          const validAnswers = answers.filter(a => a !== null);
+          if (validAnswers.length === 0) return "0.0";
+          const mean = validAnswers.reduce((a, b) => a + b, 0) / validAnswers.length;
+          const variance = validAnswers.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / validAnswers.length;
+          const consistency = Math.max(30, Math.min(99.9, 100 - (variance * 10) - (Math.random() * 5)));
+          return consistency.toFixed(1);
+        };
+
+        const RadarChart = ({ scores }) => {
+          const rawDimensions = [
+            { name: '僭越', val: scores[CHARACTERS.RASKOLNIKOV] || 0 },
+            { name: '享乐', val: scores[CHARACTERS.DMITRI] || 0 },
+            { name: '虚无', val: ((scores[CHARACTERS.STAVROGIN] || 0) + (scores[CHARACTERS.PYOTR] || 0)) / 2 },
+            { name: '悲悯', val: ((scores[CHARACTERS.ALYOSHA] || 0) + (scores[CHARACTERS.MYSHKIN] || 0)) / 2 },
+            { name: '受虐', val: scores[CHARACTERS.SONYA] || 0 },
+            { name: '理智', val: scores[CHARACTERS.IVAN] || 0 }
+          ];
+
+          const minVal = Math.min(...rawDimensions.map(d => d.val));
+          const maxVal = Math.max(...rawDimensions.map(d => d.val));
+          const range = Math.max(maxVal - minVal, 1);
+
+          const dataPoints = rawDimensions.map(d => {
+            const norm = (d.val - minVal) / range;
+            return { ...d, norm: 0.2 + norm * 0.8 }; 
+          });
+
+          const getCoordinatesForAngle = (angle, radius) => ({
+              x: 50 + radius * Math.cos(angle),
+              y: 50 + radius * Math.sin(angle)
+          });
+
+          const pointsString = dataPoints.map((d, i) => {
+            const angle = (Math.PI * 2 * i) / 6 - Math.PI / 2;
+            const { x, y } = getCoordinatesForAngle(angle, 40 * d.norm);
+            return `${x},${y}`;
+          }).join(' ');
+
+          return (
+            <svg viewBox="0 0 100 100" className="w-full h-full max-w-xs mx-auto drop-shadow-[0_0_15px_rgba(220,38,38,0.3)]">
+              {[0.33, 0.66, 1].map((scale, i) => (
+                <polygon key={`grid-${i}`}
+                  points={Array.from({length: 6}).map((_, j) => {
+                    const angle = (Math.PI * 2 * j) / 6 - Math.PI / 2;
+                    const { x, y } = getCoordinatesForAngle(angle, 40 * scale);
+                    return `${x},${y}`;
+                  }).join(' ')}
+                  className="fill-none stroke-zinc-800" strokeWidth="0.5"
+                />
+              ))}
+              <polygon points={pointsString} className="fill-red-900/40 stroke-red-600" strokeWidth="1.5" />
+              {dataPoints.map((_, i) => {
+                const angle = (Math.PI * 2 * i) / 6 - Math.PI / 2;
+                const end = getCoordinatesForAngle(angle, 40);
+                return <line key={`axis-${i}`} x1="50" y1="50" x2={end.x} y2={end.y} className="stroke-zinc-800" strokeWidth="0.5" />;
+              })}
+              {dataPoints.map((d, i) => {
+                const angle = (Math.PI * 2 * i) / 6 - Math.PI / 2;
+                const { x, y } = getCoordinatesForAngle(angle, 46);
+                let anchor = 'middle';
+                if (x < 45) anchor = 'end';
+                if (x > 55) anchor = 'start';
+                return (
+                  <text key={`label-${i}`} x={x} y={y} fontSize="4" fill="#d4d4d8" textAnchor={anchor} alignmentBaseline="middle" className="font-bold tracking-widest">
+                    {d.name}
+                  </text>
+                );
+              })}
+            </svg>
+          );
+        };
+
+        const StainedGlassWindow = () => (
+            <div className="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-[0.07] flex justify-center mix-blend-overlay z-0">
+                <svg viewBox="0 0 800 600" className="w-full h-full object-cover" preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                        <linearGradient id="redGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#7f1d1d" /><stop offset="100%" stopColor="#450a0a" /></linearGradient>
+                        <linearGradient id="blueGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#1e3a8a" /><stop offset="100%" stopColor="#0f172a" /></linearGradient>
+                        <linearGradient id="goldGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#854d0e" /><stop offset="100%" stopColor="#422006" /></linearGradient>
+                    </defs>
+                    <path d="M 400 50 C 550 50 650 150 650 550 L 150 550 C 150 150 250 50 400 50 Z" fill="none" stroke="#27272a" strokeWidth="12" />
+                    <circle cx="400" cy="200" r="100" fill="url(#redGlass)" stroke="#27272a" strokeWidth="6" />
+                    <path d="M 400 100 L 440 200 L 400 300 L 360 200 Z" fill="url(#goldGlass)" stroke="#27272a" strokeWidth="4" />
+                    <path d="M 300 200 L 400 160 L 500 200 L 400 240 Z" fill="url(#goldGlass)" stroke="#27272a" strokeWidth="4" />
+                    <path d="M 400 50 C 460 110 480 170 500 200 L 650 550 L 400 550 Z" fill="url(#blueGlass)" stroke="#27272a" strokeWidth="6" />
+                    <path d="M 400 50 C 340 110 320 170 300 200 L 150 550 L 400 550 Z" fill="url(#blueGlass)" stroke="#27272a" strokeWidth="6" />
+                </svg>
+            </div>
+        );
+
+        const App = () => {
+          const [screen, setScreen] = useState('welcome');
+          const [currentStep, setCurrentStep] = useState(0);
+          const [answers, setAnswers] = useState(Array(questions.length).fill(null));
+          const [result, setResult] = useState(null);
+          const [finalScores, setFinalScores] = useState({});
+          
+          const [feedback, setFeedback] = useState("");
+          const [feedbackVisible, setFeedbackVisible] = useState(false);
+          const [isTransitioning, setIsTransitioning] = useState(false);
+
+          const [validationReport, setValidationReport] = useState("");
+          const [consistencyScore, setConsistencyScore] = useState("0.0");
+          
+          const [showQR, setShowQR] = useState(false);
+
+          const handleAnswer = (value) => {
+            if (isTransitioning) return;
+            setIsTransitioning(true);
+
+            const newAnswers = [...answers];
+            newAnswers[currentStep] = value;
+            setAnswers(newAnswers);
+
+            if (value !== 0) {
+              const currentQuestion = questions[currentStep];
+              const domChar = getDominantTrait(currentQuestion.traits);
+              const mood = value > 0 ? 'agree' : 'disagree';
+              const possibleFeedbacks = FEEDBACK_STRINGS[domChar]?.[mood] || [];
+              if (possibleFeedbacks.length > 0) {
+                const randomFeedback = possibleFeedbacks[Math.floor(Math.random() * possibleFeedbacks.length)];
+                setFeedback(randomFeedback);
+                setFeedbackVisible(true);
+                setTimeout(() => setFeedbackVisible(false), 1000);
+              }
+            }
+
+            setTimeout(() => {
+              if (currentStep < questions.length - 1) {
+                setCurrentStep(currentStep + 1);
+              } else {
+                calculateResult(newAnswers);
+              }
+              setIsTransitioning(false);
+            }, 2500); 
+          };
+
+          const handleBack = () => {
+            if (currentStep > 0 && !isTransitioning) {
+              setCurrentStep(currentStep - 1);
+              setFeedbackVisible(false);
+            }
+          };
+
+          const calculateResult = (finalAnswers) => {
+            const calculatedScores = Object.values(CHARACTERS).reduce((acc, char) => ({ ...acc, [char]: 0 }), {});
+            finalAnswers.forEach((val, idx) => {
+              if (val === null) return;
+              for (const [character, weight] of Object.entries(questions[idx].traits)) {
+                calculatedScores[character] += weight * val;
+              }
+            });
+
+            let topCharacter = Object.keys(calculatedScores).reduce((a, b) => calculatedScores[a] > calculatedScores[b] ? a : b);
+
+            const scorePercent = calculateConsistency(finalAnswers);
+            setConsistencyScore(scorePercent);
+
+            let report = "样本逻辑一致性校验通过。";
+            if (parseFloat(scorePercent) < 65) {
+                report = "你的回答充满了撕裂般的矛盾。这说明你要么正在经历一场深刻的本体论危机（试图同时兼容主人道德与奴隶道德），要么仅仅是个试图用随机谎言掩饰内心空洞的骗子。";
+            } else if (calculatedScores[CHARACTERS.SONYA] > 2 && calculatedScores[CHARACTERS.RASKOLNIKOV] > 2) report = "校验异常：检测到僭越者与受虐者的深度共生。";
+            else if (calculatedScores[CHARACTERS.IVAN] > 2 && calculatedScores[CHARACTERS.ALYOSHA] > 2) report = "校验异常：理性的极致解构与信仰的绝望拥抱并存。";
+            else if (calculatedScores[CHARACTERS.STAVROGIN] > 2 && calculatedScores[CHARACTERS.DMITRI] > 2) report = "校验异常：本体论虚无与感官狂热的最终对撞。";
+            
+            setValidationReport(report);
+            setFinalScores(calculatedScores);
+            setResult(CHARACTER_PROFILES[topCharacter]);
+            setScreen('result');
+          };
+
+          const resetTest = () => {
+            setScreen('welcome');
+            setCurrentStep(0);
+            setAnswers(Array(questions.length).fill(null));
+            setResult(null);
+            setShowQR(false);
+          };
+
+          const bgStyle = {
+            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' opacity='0.04'%3E%3Cpath d='M60 20 Q70 5 80 20 Q100 35 80 50 Q85 75 60 70 Q35 75 40 50 Q20 35 40 20 Q50 5 60 20 Z' fill='%23991b1b'/%3E%3C/svg%3E")`,
+            backgroundColor: '#0a0a0a'
+          };
+
+          if (screen === 'welcome') {
+              return (
+                  <div style={bgStyle} className="min-h-screen flex flex-col items-center justify-center p-4 relative z-10">
+                      <StainedGlassWindow />
+                      <CrossClickEffect />
+                      <div className="absolute inset-0 bg-black/60 pointer-events-none"></div>
+                      <div className="z-10 text-center flex flex-col items-center max-w-2xl relative mt-16">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Dostoevsky_1872.jpg" className="w-32 h-auto mb-6 pixelated grayscale opacity-80" />
+                          <h1 className="text-6xl md:text-8xl font-serif text-red-700 tracking-tighter mb-4 text-shadow-glow">Dtti</h1>
+                          <h2 className="text-sm md:text-base text-zinc-500 tracking-widest uppercase mb-16 font-bold">俄国精神病人诊断系统</h2>
+                          <button onClick={() => setScreen('test')} className="px-8 py-4 border border-red-900/50 text-red-100 hover:bg-red-950/30 transition-all tracking-widest text-lg font-serif">
+                            你相信上帝的存在吗？
+                          </button>
+                      </div>
+                  </div>
+              );
+          }
+
+          if (screen === 'result' && result) {
+            const currentUrl = window.location.href;
+            const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(currentUrl)}&bgcolor=111111&color=b91c1c`;
+
+            return (
+              <div style={bgStyle} className="min-h-screen text-gray-200 font-serif flex flex-col items-center p-4 py-12 relative z-10">
+                <StainedGlassWindow />
+                <CrossClickEffect />
+                <div className="max-w-3xl w-full bg-[#111111]/95 border-2 border-zinc-800 p-8 md:p-10 relative z-10">
+                  <div className="flex flex-col md:flex-row items-center gap-8 mb-10 border-b border-zinc-800 pb-10">
+                    <div className="p-4 bg-zinc-950 border border-red-900/30 rounded-full">{result.icon}</div>
+                    <div className="text-center md:text-left">
+                      <h1 className="text-sm text-zinc-500 uppercase tracking-widest mb-1 font-bold">病理学确诊完毕</h1>
+                      <h2 className="text-3xl md:text-4xl text-red-700 font-bold tracking-wider mb-2">{result.name}</h2>
+                      <p className="text-zinc-600 text-sm mt-2 font-mono italic">档案卷宗：{result.book}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="mb-12">
+                    <h3 className="text-xs text-zinc-500 tracking-widest mb-6 font-bold text-center uppercase">多维精神力学构图 (Dtti MENTAL TOPOGRAPHY)</h3>
+                    <RadarChart scores={finalScores} />
+                  </div>
+
+                  <div className="mb-12 space-y-4">
+                    {result.disco.map((item, index) => (
+                      <div key={index} className="p-5 bg-[#1a1a1a]/80 border-l-4 border-zinc-500 text-base leading-relaxed text-gray-300">
+                        <span className="font-bold text-zinc-400 mr-3 tracking-wide uppercase">[{item.skill}]</span>
+                        <span>{item.text}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mb-12">
+                     <h3 className="text-xs text-red-700/80 tracking-widest mb-6 font-bold uppercase border-b border-red-900/30 pb-2">精神分析报告 (Psychoanalytic Report)</h3>
+                     <div className="p-6 bg-[#151515] text-base leading-loose text-justify font-serif">
+                        <p className="first-letter:text-4xl first-letter:font-bold first-letter:text-red-600 first-letter:mr-2 first-letter:float-left">{result.psychoanalyticReport}</p>
+                     </div>
+                  </div>
+
+                  <div className="mb-12 p-6 bg-[#111111] border-l-4 border-red-800">
+                     <h3 className="text-lg text-red-700 tracking-widest mb-6 font-bold">【 样本统计算法校验 】</h3>
+                     <div className="space-y-6 text-zinc-300 text-[15px] leading-relaxed">
+                        <p>基于对您回答序列的前后语境方差测算（引入尼采式的本能校验与符号界一致性分析），系统判定您的作答一致性为 <span className="text-red-600 font-bold text-lg">{consistencyScore}%</span>。</p>
+                        <p className="text-zinc-400">诊断记录：{validationReport}</p>
+                     </div>
+                  </div>
+
+                  <div className="mt-12 flex flex-col items-center gap-6 pt-10 border-t border-zinc-800">
+                      {showQR ? (
+                          <div className="flex flex-col items-center bg-zinc-900 p-6 border border-red-900/50 animate-pulse-slow">
+                              <img src={qrUrl} alt="QR Code" className="w-40 h-40 mb-4 border border-zinc-700" />
+                              <p className="text-[10px] text-zinc-500 tracking-widest uppercase">请朋友扫描上方码，开启他们的受难之路</p>
+                              <button onClick={() => setShowQR(false)} className="mt-4 text-[10px] text-red-800 underline uppercase tracking-[0.2em]">收起二维码</button>
+                          </div>
+                      ) : (
+                          <button 
+                            onClick={() => setShowQR(true)} 
+                            className="px-6 py-3 border border-zinc-700 text-[10px] tracking-[0.3em] font-bold uppercase hover:text-red-500 hover:border-red-900 transition-all"
+                          >
+                              [ 召唤分享二维码 / SHARE ]
+                          </button>
+                      )}
+                  </div>
+
+                  <div className="text-center mt-12">
+                    <button onClick={resetTest} className="px-10 py-4 border border-zinc-700 hover:border-red-800 hover:text-red-500 transition-all text-sm tracking-[0.2em] font-bold uppercase">
+                      擦除记忆 (RESTART)
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
+          }
+
+          return (
+            <div style={bgStyle} className="min-h-screen text-gray-200 font-serif flex flex-col p-4 md:p-8 selection:bg-red-900 selection:text-white relative z-10">
+              <StainedGlassWindow />
+              <CrossClickEffect />
+              <div className={`fixed bottom-12 right-12 max-w-sm text-right font-serif pointer-events-none transition-all duration-300 z-50 ${feedbackVisible ? 'opacity-100 translate-y-0 text-shadow-glow' : 'opacity-0 translate-y-6'}`}>
+                <span className="inline-block bg-black/85 p-4 border-r-4 border-red-800 text-sm text-zinc-300 font-medium">"{feedback}"</span>
+              </div>
+              <div className="max-w-3xl w-full mx-auto flex-grow flex flex-col bg-[#111111]/90 p-6 md:p-10 border border-zinc-800 relative z-10">
+                <div className="mb-12 mt-2">
+                  <div className="flex justify-between items-end mb-4">
+                    <h1 className="text-sm md:text-base font-bold tracking-widest text-zinc-500"><span className="text-red-800 mr-2">■</span> Dtti 俄国精神病人诊断</h1>
+                    <span className="text-red-700 font-mono text-xs">{currentStep + 1} / {questions.length}</span>
+                  </div>
+                  <div className="w-full h-1 bg-[#0a0a0a] border border-zinc-800/50"><div className="h-full bg-red-800 transition-all duration-300" style={{ width: `${((currentStep) / questions.length) * 100}%` }}></div></div>
+                </div>
+                <div className="flex-grow flex flex-col justify-center mb-8">
+                  <h2 className="text-xl md:text-2xl leading-loose mb-16 text-center text-zinc-200">“{questions[currentStep].text}”</h2>
+                  <div className="flex flex-col md:flex-row gap-4 justify-between w-full">
+                    {LIKERT_OPTIONS.map((option, index) => (
+                      <button key={index} onClick={() => handleAnswer(option.value)} disabled={isTransitioning} className={`flex-1 py-4 px-2 bg-[#1a1a1a] border border-zinc-800 transition-all text-sm text-zinc-400 ${isTransitioning ? 'opacity-50' : 'hover:border-red-800 hover:bg-red-950/20 hover:text-red-100'}`}>{option.label}</button>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-6 md:gap-0 text-xs mt-8 border-t border-zinc-800/50 pt-6">
+                  <button onClick={handleBack} disabled={currentStep === 0 || isTransitioning} className={`tracking-widest w-full md:w-auto text-center md:text-left ${currentStep === 0 || isTransitioning ? 'text-zinc-800' : 'text-zinc-500 hover:text-white'}`}>&lt; 退回上一念头 (BACK)</button>
+                  <div className="text-zinc-700 italic tracking-widest text-[10px] md:text-xs text-center md:text-right leading-relaxed px-2 md:px-0">“一粒麦子不落在地里死了，仍旧是一粒；若是死了，就结出许多子粒来。”</div>
+                </div>
+              </div>
+            </div>
+          );
+        };
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+</body>
+</html>
