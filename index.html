@@ -185,7 +185,7 @@
             ),
             disco: [
               { skill: "循循善诱", text: "成功：恐惧和共谋。你需要用这些把那些蠢货绑在一起。杀一个自己人，让所有人的手上都沾满热腾腾的血。没有什么比共同的肮脏秘密更能打造组织的向心力了。" },
-              { skill: "概念化", text: "成功：别提什么伟大的乌托邦和人类的未来。那些只是用来骗热血大学生的塑料假花。你深谙现代社会的微观政治逻辑：一切坚固的东西都必须被解构、被砸碎。" },
+              { skill: "概念化", text: "成功：别提什么伟大的乌托构和人类的未来。那些只是用来骗热血大学生的塑料假花。你深谙现代社会的微观政治逻辑：一切坚固的东西都必须被解构、被砸碎。" },
               { skill: "食髓知味", text: "成功：你是一台没有感情的绞肉机，一个披着激进外衣的犬儒主义小丑。你享受的仅仅是操纵权力杠杆、听着旧秩序在轮轴间发出断裂声时的那种生理快感。" }
             ],
             psychoanalyticReport: "你是一个完美的后现代政治操盘手，一个披着激进革命外衣的犬儒主义小丑。你根本不相信什么伟大的理念或乌托邦，那些只是你用来动员和操控群氓的工具。你深谙权力的肮脏秘密：比崇高的理想更能将人们捆绑在一起的，是共同的罪恶和沾血的双手。你是一台没有感情的社会绞肉机，你享受的不是建设新世界，而是听着旧世界的骨骼在你的操纵下断裂、粉碎的声音。你的存在揭示了激进政治中最阴暗的一面：当行动失去了伦理内核，它就会堕落为一种纯粹的、为了毁灭而毁灭的微观权力游戏。"
@@ -683,7 +683,7 @@
             <div style={bgStyle} className="min-h-screen text-gray-200 font-serif flex flex-col p-4 md:p-8 selection:bg-red-900 selection:text-white relative z-10">
               <StainedGlassWindow />
               <CrossClickEffect />
-              <div className={`fixed bottom-12 right-12 max-w-sm text-right font-serif pointer-events-none transition-all duration-300 z-50 ${feedbackVisible ? 'opacity-100 translate-y-0 text-shadow-glow' : 'opacity-0 translate-y-6'}`}>
+              <div className={`fixed bottom-12 right-12 max-w-sm text-justify font-serif pointer-events-none transition-all duration-300 z-50 ${feedbackVisible ? 'opacity-100 translate-y-0 text-shadow-glow' : 'opacity-0 translate-y-6'}`}>
                 <span className="inline-block bg-black/85 p-4 border-r-4 border-red-800 text-sm text-zinc-300 font-medium">"{feedback}"</span>
               </div>
               <div className="max-w-3xl w-full mx-auto flex-grow flex flex-col bg-[#111111]/90 p-6 md:p-10 border border-zinc-800 relative z-10">
@@ -695,7 +695,7 @@
                   <div className="w-full h-1 bg-[#0a0a0a] border border-zinc-800/50"><div className="h-full bg-red-800 transition-all duration-300" style={{ width: `${((currentStep) / questions.length) * 100}%` }}></div></div>
                 </div>
                 <div className="flex-grow flex flex-col justify-center mb-8">
-                  <h2 className="text-xl md:text-2xl leading-loose mb-16 text-center text-zinc-200">“{questions[currentStep].text}”</h2>
+                  <h2 className="text-xl md:text-2xl leading-loose mb-16 text-left break-all text-zinc-200">“{questions[currentStep].text}”</h2>
                   <div className="flex flex-col md:flex-row gap-4 justify-between w-full">
                     {LIKERT_OPTIONS.map((option, index) => (
                       <button key={index} onClick={() => handleAnswer(option.value)} disabled={isTransitioning} className={`flex-1 py-4 px-2 bg-[#1a1a1a] border border-zinc-800 transition-all text-sm text-zinc-400 ${isTransitioning ? 'opacity-50' : 'hover:border-red-800 hover:bg-red-950/20 hover:text-red-100'}`}>{option.label}</button>
